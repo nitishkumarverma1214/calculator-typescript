@@ -47,7 +47,6 @@ class Calculator {
         if (secondOperand) result = firstOperand / secondOperand;
         else result = "Can't divide by zero";
         this.operator = "";
-        console.log(result);
         break;
       default:
         return;
